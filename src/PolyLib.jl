@@ -1,5 +1,7 @@
 module PolyLib
+	const polylib = "libpolylib64"
 
-# package code goes here
-
-end # module
+	include("common.jl")
+	include("functions.jl")
+	include("extra.jl")
+end
